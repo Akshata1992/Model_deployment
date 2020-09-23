@@ -1,0 +1,5 @@
+keras
+redis
+requests
+flask
+gevent
