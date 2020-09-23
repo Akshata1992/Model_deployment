@@ -25,6 +25,7 @@ Important files in the project:
 Model: Linear Regression
 Web API: Flask
 Server: Heroku - PAAS
+API Link: https://linear-salary-predictions.herokuapp.com/
 Important files:
 
 1. model.py: Linear model for salary prediction with customized dataset
