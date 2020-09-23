@@ -38,11 +38,11 @@ Important files:
 7. procfile: procfile for Heroku to indicate which app file to be executed first(flask app name)
 8. Commands to check deployment logs:
  - Open command prompt and enter 'heroku login'
- - Once logged in, enter heroku logs --app
+ - Once logged in, enter heroku logs --app <heroku app name>
  
  II: NLP Model to detect Spam/Ham email
   - Model: Naive-Bayes
   - Web API: Flask
   - Server: Heroku - PAAS
-  - API Link:
+  - API Link: https://nlp-spam-ham-email.herokuapp.com/
   
