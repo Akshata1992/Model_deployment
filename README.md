@@ -1,14 +1,10 @@
 # Model_deployment
 # Branch: Flask_API_Apache_Server
 Image classification:
-
-Model : ResNet50
-
-Framework : Keras
-
-Web API : Flask Application
-
-Server: Apache
+ - Model : ResNet50
+ - Framework : Keras
+ - Web API : Flask Application
+ - Server: Apache
 
 Important files in the project:
 
@@ -26,13 +22,10 @@ Important files in the project:
 7. Finally, use stress_test.py to stress our server and measure image classification throughout.
 
 # Branch: Heroku - PAAS deployment for salary predictions
-Model: Linear Regression
-
-Web API: Flask
-
-Server: Heroku - PAAS
-
-API Link: https://linear-salary-predictions.herokuapp.com/
+I. Model: Linear Regression
+ - Web API: Flask
+ - Server: Heroku - PAAS
+ - API Link: https://linear-salary-predictions.herokuapp.com/
 
 Important files:
 
@@ -46,3 +39,10 @@ Important files:
 8. Commands to check deployment logs:
  - Open command prompt and enter 'heroku login'
  - Once logged in, enter heroku logs --app
+ 
+ II: NLP Model to detect Spam/Ham email
+  - Model: Naive-Bayes
+  - Web API: Flask
+  - Server: Heroku - PAAS
+  - API Link:
+  
