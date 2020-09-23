@@ -3,9 +3,13 @@
 Image classification:
 
 Model : ResNet50
+
 Framework : Keras
+
 Web API : Flask Application
+
 Server: Apache
+
 Important files in the project:
 
 1. run_web_server.py contains all our Flask web server code — Apache will load this when starting our deep learning web app.
@@ -23,9 +27,13 @@ Important files in the project:
 
 # Branch: Heroku - PAAS deployment for salary predictions
 Model: Linear Regression
+
 Web API: Flask
+
 Server: Heroku - PAAS
+
 API Link: https://linear-salary-predictions.herokuapp.com/
+
 Important files:
 
 1. model.py: Linear model for salary prediction with customized dataset
